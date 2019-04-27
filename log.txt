@@ -1,0 +1,113 @@
+commit 40ba3e997c41f73560436d0829559c530c02b453
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Sat Apr 27 01:00:08 2019 -0400
+
+    login update
+
+ app/src/main/res/layout/login.xml | 35 +++++++++++++++++++++++++++++++++++
+ 1 file changed, 35 insertions(+)
+
+commit 676aa4acc76b60db501885a824b84390b60382bc
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Sat Apr 27 00:56:46 2019 -0400
+
+    updates
+
+ .idea/misc.xml                                     |  2 +-
+ .../java/com/example/backendapp/MainActivity.java  |  2 +-
+ app/src/main/res/layout/activity_main.xml          | 55 ++++++++++++++++++----
+ 3 files changed, 49 insertions(+), 10 deletions(-)
+
+commit df7868bc193f58c3b0a488766470b477c0f97aaa
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Thu Apr 25 23:07:19 2019 -0400
+
+    updates
+
+ .idea/misc.xml                                             | 2 +-
+ app/src/main/java/com/example/backendapp/MainActivity.java | 3 ++-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit f6a00ebae480928adb5990e16e2c73d547886ca4
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Tue Apr 23 22:40:49 2019 -0400
+
+    more updates
+
+ .idea/misc.xml                                             | 2 +-
+ app/src/main/java/com/example/backendapp/MainActivity.java | 1 +
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit 361c290dd839a79c3c9943ad110cec309bb091ca
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Mon Apr 22 23:37:44 2019 -0400
+
+    Update
+
+ .idea/misc.xml                                             | 2 +-
+ app/src/main/java/com/example/backendapp/MainActivity.java | 1 +
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+commit 937621a0abde0ac5131130cad18c022df41d51e8
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Sun Apr 21 23:41:31 2019 -0400
+
+    updates
+
+ app/src/main/java/com/example/backendapp/MainActivity.java | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit da528511dd75a25148ceab0c9ba230630366e6b9
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Sat Apr 20 23:36:36 2019 -0400
+
+    initialize
+
+ .gitignore                                         |  13 ++
+ .idea/codeStyles/Project.xml                       |  29 ++++
+ .idea/gradle.xml                                   |  15 ++
+ .idea/misc.xml                                     |   9 ++
+ .idea/runConfigurations.xml                        |  12 ++
+ .idea/vcs.xml                                      |   6 +
+ app/.gitignore                                     |   1 +
+ app/build.gradle                                   |  28 ++++
+ app/proguard-rules.pro                             |  21 +++
+ .../backendapp/ExampleInstrumentedTest.java        |  26 ++++
+ app/src/main/AndroidManifest.xml                   |  21 +++
+ .../java/com/example/backendapp/MainActivity.java  |  13 ++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++++++++
+ app/src/main/res/layout/activity_main.xml          |  18 +++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.png       | Bin 0 -> 2963 bytes
+ app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.png       | Bin 0 -> 2060 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.png      | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.png     | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ app/src/main/res/values/colors.xml                 |   6 +
+ app/src/main/res/values/strings.xml                |   3 +
+ app/src/main/res/values/styles.xml                 |  11 ++
+ .../com/example/backendapp/ExampleUnitTest.java    |  17 ++
+ build.gradle                                       |  27 ++++
+ gradle.properties                                  |  15 ++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 54329 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   6 +
+ gradlew                                            | 172 +++++++++++++++++++++
+ gradlew.bat                                        |  84 ++++++++++
+ settings.gradle                                    |   1 +
+ 38 files changed, 768 insertions(+)
+
+commit 92d87fb2c7990ab2febf23677380ead55a0b6a81
+Author: Kevin Andrade <35554779+Kandrade1234@users.noreply.github.com>
+Date:   Sat Apr 20 21:56:47 2019 -0400
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
